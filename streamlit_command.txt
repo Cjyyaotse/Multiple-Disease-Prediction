@@ -1,0 +1,1 @@
+streamlit run "C:\Users\hp\Desktop\New folder (2)\COLLINS\Multiple Disease Prediction System\disease_prediction_final.py"
