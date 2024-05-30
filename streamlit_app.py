@@ -5,9 +5,9 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 
 # Loading the saved models from the main directory
-breast_cancer_model = pickle.load(open('model_savs','breast_cancer_model.sav', 'rb'))
-diabetes_model = pickle.load(open('model_savs','diabetic_model.sav', 'rb'))
-heart_failure_model = pickle.load(open('model_savs','heart_failure_model.sav', 'rb'))
+breast_cancer_model = pickle.load(open('breast_cancer_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetic_model.sav', 'rb'))
+heart_failure_model = pickle.load(open('heart_failure_model.sav', 'rb'))
 
 # Sidebar for navigation
 with st.sidebar:
