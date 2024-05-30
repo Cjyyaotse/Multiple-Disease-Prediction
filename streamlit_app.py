@@ -3,6 +3,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import numpy as np
 from sklearn.preprocessing import StandardScaler
+import lightgbm
 
 # Loading the saved models from the main directory
 breast_cancer_model = pickle.load(open('breast_cancer_model.sav', 'rb'))
