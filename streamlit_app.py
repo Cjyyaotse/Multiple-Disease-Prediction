@@ -1,13 +1,13 @@
-import pickle
+import joblib
 import streamlit as st
 from streamlit_option_menu import option_menu
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 
 # Loading the saved models from the main directory
-breast_cancer_model = pickle.load(open('breast_cancer_model.sav', 'rb'))
-diabetes_model = pickle.load(open('diabetic_model.sav', 'rb'))
-heart_failure_model = pickle.load(open('heart_failure_model.sav', 'rb'))
+breast_cancer_model = joblib.load('breast_cancer_model.joblib')
+diabetes_model = joblib.load('diabetic_model.joblib')
+heart_failure_model = joblib.load('heart_failure_model.joblib')
 
 # Sidebar for navigation
 with st.sidebar:
