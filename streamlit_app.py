@@ -120,4 +120,4 @@ if selected == 'Breast Cancer Prediction':
             breast_cancer_diagnosis = 'Patient has a malignant (cancerous) tumor'
         else:
             breast_cancer_diagnosis = 'Patient is not suffering from breast cancer'
-    st.success(breast_cancer_diagnosis
+    st.success(breast_cancer_diagnosis)
